@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: gold
+}
+
+.button{
+        background-color: #f0f0f0;  /* Background color */
+    color: #333;                 /* Text color */
+    padding: 8px;                /* Padding */
+    border: 1px solid #ccc;      /* Border */
+    border-radius: 4px;          /* Border radius */
+}
